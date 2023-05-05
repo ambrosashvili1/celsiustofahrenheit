@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.container {
+    height: 300px;
+    width: 500px;
+    background-color: rgb(240, 240, 240);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container input {
+    display: inline-block;
+    position: relative;
+    font-size: 22px;
+    color: grey;
+}
+
+.container button {
+width: 100px;
+height: 30px;
+margin-top: 30px;
+color: white;
+background-color: green;
+border: none;
+border-radius: 20px;
+}
+
+#res {
+    color: green;
+}
+
+.container h2 {
+    font-size: 22px;
+}
